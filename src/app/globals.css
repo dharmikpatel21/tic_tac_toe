@@ -4,14 +4,11 @@
 
 @layer base {
   :root {
+    --color-background-dark: 15 32 42;
     --color-background: 25 42 50;
-    --color-green-light: 220 229 228;
-    --color-yellow: 249 191 41;
-    --color-black: 47 47 47;
-    --color-gray: 106 106 106;
-    --color-white: 255 255 255;
-    --color-offwhite: 240 242 241;
-    --swiper-theme-color: rgba(59 93 80);
+    --color-yellow: 242 177 55;
+    --color-cyan: 48 196 190;
+    --color-grey: 168 191 201;
   }
 
   html {
@@ -29,6 +26,6 @@
   }
 
   body {
-    @apply font-sans overflow-x-hidden text-black bg-background;
+    @apply font-sans overflow-x-hidden text-white bg-grey;
   }
 }

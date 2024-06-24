@@ -11,6 +11,10 @@ const config: Config = {
     extend: {
       colors: {
         background: "rgba(var(--color-background) / <alpha-value>)",
+        backgroundDark: "rgba(var(--color-background-dark) / <alpha-value>)",
+        yellow: "rgba(var(--color-yellow) / <alpha-value>)",
+        cyan: "rgba(var(--color-cyan) / <alpha-value>)",
+        grey: "rgba(var(--color-grey) / <alpha-value>)",
       },
       spacing: {
         container: `max(
