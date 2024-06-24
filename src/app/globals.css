@@ -6,6 +6,7 @@
   :root {
     --color-background-dark: 15 32 42;
     --color-background: 25 42 50;
+    --color-background-light: 31 54 64;
     --color-yellow: 242 177 55;
     --color-cyan: 48 196 190;
     --color-grey: 168 191 201;
@@ -26,6 +27,6 @@
   }
 
   body {
-    @apply font-sans overflow-x-hidden text-white bg-grey;
+    @apply font-sans overflow-x-hidden text-white bg-background;
   }
 }
